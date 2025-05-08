@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Extensions Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="top-bar">
+      <img src="./assets/images/logo.svg" alt="Logo" class="logo-icon" />
+      <input type="text" class="search-bar" id="search-input" placeholder="Search extensions..." />
+      <button class="settings-button">⚙️</button>
+    </header>
+    
+
+    <div class="sectio-h2-container">
+      <h2 class="section-title">Extensions List</h2>
+
+      <section class="filters">
+        <button class="filter-button active" data-type="all">All</button>
+        <button class="filter-button" data-type="active">Active</button>
+        <button class="filter-button" data-type="inactive">Inactive</button>
+      </section>
+      
+
+    </div>
+
+    <div id="extensions-grid" class="grid">
+      <!-- extension card -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
