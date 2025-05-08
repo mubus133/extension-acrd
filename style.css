@@ -1,3 +1,4 @@
+/* Dark mode THEME */
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -178,4 +179,47 @@ body {
   input:checked + .slider:before {
     transform: translateX(16px);
   }
-  
+
+
+/* Light mode styling */
+body.light-mode {
+  background: linear-gradient(to bottom, #f0f4f8, #ffffff);
+  color: #1f2937;
+}
+
+body {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+
+body.light-mode .top-bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+body.light-mode .card {
+  background-color: #ffffff;
+  color: #1f2937;
+  border: 1px solid #e5e7eb;
+}
+
+body.light-mode .card p{
+  color: #111827;
+}
+
+body.light-mode .filter-button {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+body.light-mode .filter-button.active {
+  background-color: #fb923c;
+  color: white;
+}
+
+
+body.light-mode .search-bar {
+  background-color: #f3f4f6;
+  color: #111827;
+  border: 1px solid #d1d5db;
+}
